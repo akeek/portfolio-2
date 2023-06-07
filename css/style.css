@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: #080808;
     color: #fff;
@@ -150,7 +154,7 @@ nav ul li a:hover::after {
     flex-direction: column;
     padding: 0 40px;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     transition: height 0.5s;
 }
 
@@ -163,13 +167,17 @@ nav ul li a:hover::after {
     margin-top: 20px;
     color: #ff004f;
     text-decoration: none;
-    font-size: 18px;
-    line-height: 73px;
+    font-size: 14px;
     background: #fff;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
     text-align: center;
+    width: 100px;
+    border-radius: 5px;
+    padding: 8px 15px;
+}
+
+.layer a:hover {
+    background-color: #ff004f;
+    color: white;
 }
 
 .work:hover img {
