@@ -202,6 +202,10 @@ nav ul li a:hover::after {
     transition: transform 0.5s;
 }
 
+.project-title {
+    margin-bottom: 5px;
+}
+
 .layer {
     width: 100%;
     height: 0;
@@ -245,7 +249,7 @@ nav ul li a:hover::after {
 }
 
 .work:hover img {
-    transform: scale(1.1);
+    transform: scale(1.3);
 }
 
 .work:hover .layer {
