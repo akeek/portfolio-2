@@ -130,7 +130,8 @@
                         <a href=""><i class="fa-brands fa-instagram"></i></a>
                         <a href=""><i class="fa-brands fa-linkedin"></i></a>
                     </div>
-                    <a href="/images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                    <a class="btn btn2" onclick="showcontent()">Download CV</a>
+                    <span id="not-rdy">This feature is not done yet</span>
                 </div>
                 <div class="contact-right">
                     <form name="submit-to-google-sheet">
@@ -175,6 +176,20 @@
     function closemenu() {
         sidemenu.style.right = "-200px"
     }
+
+</script>
+
+<script>
+
+    const notrdy = document.getElementById("not-rdy")
+
+    function showcontent() {
+        notrdy.style.display = "block";
+        setTimeout(function(){
+            notrdy.innerHTML = ""
+        }, 4000)
+    }
+
 
 </script>
 

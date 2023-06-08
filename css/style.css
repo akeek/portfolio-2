@@ -320,6 +320,12 @@ form .btn2 {
     cursor: pointer;
 }
 
+#not-rdy {
+    display: none;
+    color: #ff004f;
+    margin-top: -40px;
+}
+
 .copyright {
     width: 100%;
     text-align: center;
@@ -337,7 +343,6 @@ form .btn2 {
     color: #61b752;
     margin-top: -40px;
     display: block;
-
 }
 
 /* ------- css for small screen -------  */
