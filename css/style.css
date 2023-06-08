@@ -20,6 +20,7 @@ body {
     /* background-image: url(/images/åke\ ørken.png); */
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 .logo {
@@ -64,6 +65,20 @@ nav ul li a::after {
 
 nav ul li a:hover::after {
     width: 100%;
+}
+
+#header .fa-arrow-down {
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transition: transform 0.5s;
+}
+
+.fa-arrow-down:hover {
+    transform: translateY(10px);
 }
 
 .header-text {
@@ -357,6 +372,10 @@ nav .fa-solid {
 }
 
 @media only screen and (max-width: 600px) {
+    .logo {
+        height: 50px;
+    }
+
     .header-text {
         margin-top: 100%;
         font-size: 16px;
