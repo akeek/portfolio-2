@@ -24,7 +24,7 @@ body {
 }
 
 .logo {
-    height: 100px;
+    height: 80px;
 }
 
 .container {
@@ -37,10 +37,6 @@ nav {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 8;
     padding: 10px 10%;
 }
 
@@ -78,7 +74,7 @@ nav ul li a:hover::after {
     font-size: 30px;
     position: absolute;
     left: 45%;
-    bottom: 10%;
+    bottom: 20%;
     transition: transform 0.5s;
 }
 
@@ -384,6 +380,7 @@ nav .fa-solid {
 @media only screen and (max-width: 600px) {
     .logo {
         height: 50px;
+        backdrop-filter: blur(5px);
     }
 
     #header {
@@ -409,6 +406,13 @@ nav .fa-solid {
     nav .fa-solid {
         display: block;
         font-size: 25px;
+    }
+
+    nav {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 8;
     }
 
     nav ul {
