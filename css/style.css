@@ -415,6 +415,10 @@ nav .fa-solid {
         cursor: pointer;
     }
 
+    #header .fa-arrow-down {
+        bottom: 15%;
+    }
+
     .sub-title {
         font-size: 40px;
     }
