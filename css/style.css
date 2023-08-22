@@ -27,9 +27,10 @@ body {
     background-image: url(/images/meg.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-x: 83%;
+    background-position-x: 84%;
     position: relative;
-    height: 89vh;
+    height: 88vh;
+    margin-top: 10px;
 }
 
 .logo {
@@ -53,6 +54,7 @@ nav ul li {
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
+    z-index: 8;
 }
 
 nav ul li a {
